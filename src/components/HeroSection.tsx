@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 
 const HeroSection = () => {
   return (
@@ -36,29 +36,6 @@ const HeroSection = () => {
             </Button>
           </div>
           
-          <div className="flex justify-center space-x-6">
-            <a 
-              href="mailto:tinuvarshan.as@gmail.com" 
-              className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="Email"
-            >
-              <Mail size={24} />
-            </a>
-            <a 
-              href="#" 
-              className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="GitHub"
-            >
-              <Github size={24} />
-            </a>
-            <a 
-              href="#" 
-              className="text-muted-foreground hover:text-primary transition-colors"
-              aria-label="LinkedIn"
-            >
-              <Linkedin size={24} />
-            </a>
-          </div>
         </div>
       </div>
       
