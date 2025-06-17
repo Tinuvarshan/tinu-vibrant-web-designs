@@ -18,19 +18,9 @@ const Footer = () => {
             <p className="text-muted-foreground text-sm">
               © {currentYear} Tinuvarshan. All rights reserved.
             </p>
-            <p className="text-xs text-muted-foreground mt-1">
-              Crafted with human creativity and expertise
-            </p>
           </div>
         </div>
         
-        <div className="mt-6 pt-6 border-t border-border/30">
-          <div className="text-center">
-            <p className="text-xs text-muted-foreground">
-              This website was designed and developed entirely by human hands, with attention to detail and passion for web development.
-            </p>
-          </div>
-        </div>
       </div>
     </footer>
   );
